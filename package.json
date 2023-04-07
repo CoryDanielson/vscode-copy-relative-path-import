@@ -3,6 +3,10 @@
   "displayName": "Copy Relative Path Import",
   "description": "Copy Relative Path Import from Selection in a File",
   "version": "0.0.1",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/CoryDanielson/vscode-copy-relative-path-import.git"
+	},
   "engines": {
     "vscode": "^1.77.0"
   },
