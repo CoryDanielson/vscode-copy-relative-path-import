@@ -20,3 +20,5 @@ If you execute the same command with the copied value already in your clipboard,
 
 
 ![copy-relative-path-import](https://user-images.githubusercontent.com/1461792/230654490-df7f93e2-07c1-4bbf-b7a3-bf97ba2cada3.gif)
+
+If nothing is selected, it will copy the relative path of the active file.

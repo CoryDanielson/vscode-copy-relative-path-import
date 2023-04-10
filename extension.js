@@ -11,9 +11,6 @@ function activate(context) {
 		}
 
 		let selectedText = editor.document.getText(editor.selection);
-		if (!selectedText) {
-		  return; // No selected text
-		}
 
 		if (editor.selections.length) {
 			// copy multiple selections as a list of imports. ie: getFirstName, getLastName
@@ -28,7 +25,7 @@ function activate(context) {
 		const importStatement = `import {${selectedText}} from '${activeFilePath}';`;
 
 		vscode.env.clipboard.readText().then(text => {
-			if (text !== importStatement) {
+			if (!selectedText || text !== importStatement) {
 				vscode.env.clipboard.writeText(importStatement);
 			} else {
 				vscode.env.clipboard.writeText(activeFilePath);

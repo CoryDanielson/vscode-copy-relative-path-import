@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.4]
 
+### Added
+
+- Copies relative path of active file when nothing is selected
+
+## [0.0.4]
+
 ### Changed
 
 - Version bump, bad publish, trying again
