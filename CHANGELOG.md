@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.4]
+
+### Changed
+
+- Version bump, bad publish, trying again
+
 ## [0.0.3]
 
 ### Changed
