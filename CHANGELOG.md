@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.3]
+
+### Changed
+
+- Fixed deps, version bump
+
 ## [0.0.2]
 
 ### Changed

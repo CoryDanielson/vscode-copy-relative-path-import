@@ -2,7 +2,7 @@
   "name": "copy-relative-path-import",
   "displayName": "Copy Relative Path Import",
   "description": "Copy Relative Path Import from Selection in a File",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "CoryDanielson",
   "repository": {
 		"type": "git",
