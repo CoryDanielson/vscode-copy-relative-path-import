@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.7]
+
+### Changed
+
+- Version bump, forgot to package before publishing
+
 ## [0.0.6]
 
 ### Added
