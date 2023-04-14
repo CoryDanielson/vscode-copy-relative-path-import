@@ -18,8 +18,9 @@ function activate(context) {
 		}
 
 		let activeFilePath = vscode.workspace.asRelativePath(editor.document.uri);
+		const extensionDotsToSlice = activeFilePath.endsWith('.d.ts') ? 2 : 1;
 		if (activeFilePath.includes('.')) {
-			activeFilePath = activeFilePath.split('.').slice(0, -1).join('');
+			activeFilePath = activeFilePath.split('.').slice(0, -extensionDotsToSlice).join('.');
 		}
 
 		const importStatement = `import {${selectedText}} from '${activeFilePath}';`;

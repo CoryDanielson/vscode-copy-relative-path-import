@@ -6,7 +6,18 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [0.0.4]
+## [0.0.6]
+
+### Added
+
+- Drop .d.ts extension from a .d.ts file
+
+### Fixed
+
+- Fixed extension imports from multipart extensions. Previously importing from `something.test.js` would have rewritten the import as `somethingtest`.
+- Fixed incorrect version number in 0.0.5 section CHANGELOG.md
+
+## [0.0.5]
 
 ### Added
 
